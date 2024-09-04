@@ -6,10 +6,15 @@ body {
 }
 
 .quote {
-    display: flex;
-    flex-direction: column;
     padding: 88px 104px;
     background-color: #E5E7EB;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1150px;
+    margin: auto;
 }
 
 .quote p {
@@ -71,10 +76,15 @@ body {
 
 .main-content {
     background-color: #1F2937;
+    padding: 64px 88px;
+}
+
+.main-content .container {
     display: flex;
     justify-content: space-between;
-    padding: 64px 88px;
     gap: 32px;
+    max-width: 1150px;
+    margin: auto;
 }
 
 .main-content .left {
